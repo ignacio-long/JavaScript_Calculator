@@ -18,7 +18,7 @@ h1 {
    background-color: rgba(48, 43, 40, 1);
    width: 240px;
    height: 353px;
-   margin: 6vw auto 28vw;
+   margin: 6vw auto 24vw;
    border-radius: 20px;
    box-shadow: 17px 23px 5.5px #888888;
    border: 2px solid #3F4F4F;
@@ -120,5 +120,4 @@ footer a, footer a:hover, footer a:active, footer a:visited {
   color: #922031;
   text-decoration: none !important;
   outline: none !important;
-
 }
