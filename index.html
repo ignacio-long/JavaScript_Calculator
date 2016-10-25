@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+
+   <meta charset="UTF-8">
+   <meta name="description" content="JavaScript Calculator by Ignacio Long">
+   <meta name="keywords" content="HTML, CSS, JavaScript, jQuery, Calculator">
+   <meta name="author" content="Ignacio Long">
+
+   <title>JS Calculator</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+   <link rel="stylesheet" href="css/style.css">
+
+   <script src="js/jquery-3.1.1.min.js"></script>
+   <script src="js/calculator.js"></script>
+</head>
+
+
+<body>
+
+   <div class="container-fluid">
+
+      <h1>JavaScript Calculator</h1>
+
+      <div id="iggysCalc" class="animated flip">
+
+         <div id="brand">
+            <span class="col-xs-4" style="text-align: left;"><i class="fa fa-signal" aria-hidden="true"></i> Long <i class="fa fa-wifi" aria-hidden="true"></i></span>
+            <span class="col-xs-4" style="text-align: center;">Calculator</span>
+            <span class="col-xs-4" style="text-align: right;"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></span>
+         </div>
+
+         <div id="calcDisplay"><span id="numDisp">0</span><span id="symbolDisp"></span></div>
+
+         <div id="keypad">
+            <button value="+" class="memory">m+</button>
+            <button value="-" class="memory">m-</button>
+            <button value="mc" class="memoryCall">mr<br>mc</button>
+            <button value="/" class="symbol">÷</button>
+            <button value="7" class="number">7</button>
+            <button value="8" class="number">8</button>
+            <button value="9" class="number">9</button>
+            <button value="*" class="symbol">x</button>
+            <button value="4" class="number">4</button>
+            <button value="5" class="number">5</button>
+            <button value="6" class="number">6</button>
+            <button value="+" class="symbol">+</button>
+            <button value="1" class="number">1</button>
+            <button value="2" class="number">2</button>
+            <button value="3" class="number">3</button>
+            <button value="-" class="symbol">-</button>
+            <button value="0" class="number">0</button>
+            <button value="." class="dot">.</button>
+            <button value="c" class="clear">c</button>
+            <button value="=" class="equal">=</button>
+         </div>
+
+
+      </div>
+
+   </div>
+
+</body>
+
+<!-- FOOTER -->
+<footer class="text-center">
+   <hr>
+   <p>Page designed and coded by <a href="https://www.ignaciolong.com" target="_blank">Ignacio Long</a>.</p>
+</footer>

@@ -1,0 +1,124 @@
+body {
+   background-color: #C0B9C0;
+   text-align: center;
+}
+
+h1 {
+   margin: 1.5em auto;
+   padding: 5px 0 0;
+   font-family: 'Orbitron';
+   line-height: 50px;
+   background-color: rgba(180, 180, 180, .7);
+   width: 480px;
+   border-radius: 20px;
+   box-shadow: 7px 7px 5.5px #888888;
+}
+
+#iggysCalc {
+   background-color: rgba(48, 43, 40, 1);
+   width: 240px;
+   height: 353px;
+   margin: 6vw auto 28vw;
+   border-radius: 20px;
+   box-shadow: 17px 23px 5.5px #888888;
+   border: 2px solid #3F4F4F;
+}
+
+#brand {
+   background-color: #000;
+   padding: 0; margin: 0;
+   height: 22px;
+   color: #FFF;
+   font-size: 10px;
+   line-height: 20px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+
+#brand span {
+   margin: 0;
+   padding: 0 10px;
+}
+
+#calcDisplay {
+   height: 55px;
+   padding: 0 10px;
+   margin: 0 2px;
+   text-align: right;
+   font-size: 35px;
+   line-height: 55px;
+   background: linear-gradient(to bottom, rgba(245, 245, 245, 1), rgba(136, 202, 244, 1), rgba(245, 245, 245, .8));
+   border-radius: 4px;
+}
+
+#numDisp {
+   width: 95%; height: 100%;
+   font-size: 1em;
+}
+
+#symbolDisp {
+   width: 5%; height: 100%;
+   font-size: .4em;
+}
+
+#keypad {
+   margin: 10px;
+   padding: 0;
+}
+
+button {
+   margin: 8px 8px;
+   padding: 0;
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   color: #FFF;
+   border: none;
+   font-size: 14px;
+   vertical-align:bottom;
+   box-shadow: 0px 3px 0px 0px #222121, inset -1px -1px 2px 1px #515151;
+}
+
+button:focus, button:hover, button:visited {
+  outline: none !important;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+.memory, .memoryCall {
+   background: linear-gradient(to bottom, rgba(205, 201, 200, 1), rgba(130, 130, 130, 1), rgba(130, 130, 130, .5));
+   font-size: 12px;
+}
+
+.memoryCall {
+   line-height: 10px;
+}
+
+.number {
+   background: linear-gradient(to bottom, rgba(151, 146, 142, 1), rgba(31, 28, 25, 1), rgba(31, 28, 25, .5));
+}
+
+.symbol, .dot, .clear {
+   background: linear-gradient(to bottom, rgba(210, 200, 192, 1), rgba(135, 110, 96, 1), rgba(135, 110, 96, .5));
+}
+
+.equal {
+   background: linear-gradient(to bottom, rgba(255, 226, 197, 1), rgba(254, 141, 49, 1), rgba(254, 141, 49, .5));
+}
+
+footer {
+   color: #CCC;
+   font-family: 'Orbitron'; font-size: 16px;
+   color: #FFF;
+   text-shadow: 1px 1px #111;
+}
+
+footer a, footer a:hover, footer a:active, footer a:visited {
+  color: #922031;
+  text-decoration: none !important;
+  outline: none !important;
+
+}
